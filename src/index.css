@@ -11,3 +11,76 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+html {
+  scroll-behavior: smooth;
+}
+.card:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+  scroll-margin-top: 70px;
+}
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid white;
+  margin-bottom: 20px;
+}
+.profile-img:hover{
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+.resume-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+/* MyNavbar.css */
+
+body.light-mode {
+  background-color: #f8f9fa !important;
+  color: #000000;
+}
+
+body.light-mode .navbar {
+  background-color: #ffffff !important;
+}
+
+.theme-icon {
+  cursor: pointer;
+  font-size: 20px;
+  margin-left: 15px;
+}
+.bg-primary {
+  
+  background: linear-gradient(145deg, #8454b7, #2575fc);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+  color: white; /* text white */
+}
+.py-5{
+  background: linear-gradient(145deg, #716a78, #6685ba);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+  color: white; /* text white */
+}
+#skills{
+background: linear-gradient(145deg, #c3a9dc, #6b9aec);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+  color: white; /* text white */
+}
+#contact:hover{
+background: linear-gradient(145deg, #89868c, #52688e);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+  color: white; /* text white */
+}
+.bg-primary{
+  
+  height: 100vh; /* full viewport height */
+  display: flex;
+  align-items: center; /* vertically center content */
+  justify-content: center; /* horizontally center */
+  flex-direction: column;
+}
+#experience{
+   scroll-margin-top: 70px;
+}
