@@ -1,6 +1,7 @@
 {
   "name": "my_portfolio",
   "version": "0.1.0",
+  "homepage": "https://khushi-pal30.github.io/my-portfolio"
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
